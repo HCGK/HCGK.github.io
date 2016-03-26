@@ -1,1 +1,4 @@
-
+- text: Home
+  url: '/'
+- text: Blog
+  url: '/blog.html'
