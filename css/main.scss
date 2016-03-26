@@ -1,0 +1,63 @@
+.wrap {
+  max-width: $content-width;
+  padding: 0 30px;
+  margin: 0 auto;
+  zoom: 1;
+
+  &:after {
+    clear: both;
+  }
+
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+}
+
+@include if-device($mobile) {
+  .wrap { padding: 0 12px; }
+}
+/* ----------------------------------------------------------*/
+
+/* Site header */
+
+.site-header {
+  width: 100%;
+  z-index: 999;
+}
+
+@media screen and (max-width: $desktop) {
+    .site-header {
+        position: relative;
+        z-index: auto;
+    }
+}
+
+.site-title {
+  &:hover,
+  &:visited {
+    display: block;
+    float: left;
+    line-height: 56px;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+ul#menu{
+
+    @include column-count(5);
+
+  li {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+  }
+}
+
+@include if-device($desktop) {
+    ul#menu {
+        @include column-count(1);
+    }
+}
