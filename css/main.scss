@@ -27,13 +27,6 @@
   z-index: 999;
 }
 
-@media screen and (max-width: $desktop) {
-    .site-header {
-        position: relative;
-        z-index: auto;
-    }
-}
-
 .site-title {
   &:hover,
   &:visited {
