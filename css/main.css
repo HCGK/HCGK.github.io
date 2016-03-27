@@ -1,50 +1,29 @@
 /*head ? */
 
-ul {
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
+  }
 
-li {
+  li {
     float: left;
-}
+  }
 
-li a {
+  li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+  }
 
-a:hover:not(.active) {
+  a:hover:not(.active) {
     background-color: #111;
-}
-
-.active {
-background-color:#4CAF50;
-}
-
-
-/*wrap */
-/*
-.wrap {
-  max-width: $content-width;
-  padding: 0 30px;
-  margin: 0 auto;
-  zoom: 1;
-
-  &:after {
-    clear: both;
   }
 
-  &:before,
-  &:after {
-    content: "";
-    display: table;
-  }
+  .active {
+  background-color:#4CAF50;
 }
-*/
