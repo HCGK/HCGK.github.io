@@ -1,2 +1,4 @@
 name: Henry
 markdown: kramdown
+
+include = ['blog']
