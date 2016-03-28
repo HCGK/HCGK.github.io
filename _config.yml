@@ -1,4 +1,4 @@
 name: Henry
 markdown: kramdown
 
-include = ['blog']
+include = ['/blog/']
