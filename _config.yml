@@ -1,2 +1,4 @@
 name: Henry
 markdown: kramdown
+
+paginate_path: "/blog/page:num"
