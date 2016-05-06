@@ -1,5 +1,9 @@
-/*head ? */
+/* */
+ul[id="posts"]{
+  list-style-type: none;
+}
 
+/* menu ??*/
   ul[id="menu"]{
     list-style-type: none;
     margin: 0;
@@ -27,4 +31,6 @@
   .active {
   background-color:#4CAF50;
  }
+ 
+ 
 }
