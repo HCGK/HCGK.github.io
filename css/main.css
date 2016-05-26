@@ -12,11 +12,11 @@
     background-color: #333;
   }
 
-  li {
+  li [id="menu"]{
     float: left;
   }
 
-  li a {
+  li a [id="menu"]{
     display: block;
     color: white;
     text-align: center;
@@ -24,7 +24,7 @@
     text-decoration: none;
   }
 
-  a:hover:not(.active) {
+  a [id="menu"] :hover:not(.active) {
     background-color: #111;
   }
 
