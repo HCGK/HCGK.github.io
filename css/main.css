@@ -7,12 +7,12 @@
     background-color: #333;
   }
 
-  li#menu_item {
+  li {
     float: left;
     border-right:1px solid #bbb;
   }
 
-  li#menu_item:last-child {
+  li:last-child {
     border-right: none;
   }
 
