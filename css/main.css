@@ -1,10 +1,5 @@
-/*Blog Pages*/
-  ul[id="posts"]{
-    list-style-type: none;
-  }
 
-/* menu ??*/
-  ul[id="menu"]{
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,22 +7,27 @@
     background-color: #333;
   }
 
-  li [id="menu"]{
+  li {
     float: left;
+    border-right:1px solid #bbb;
   }
 
-  li a [id="menu"]{
+  li:last-child {
+    border-right: none;
+  }
+
+  li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-
-  a [id="menu"] :hover:not(.active) {
-    background-color: #FF1;
+  
+  li a:hover:not(.active) {
+    background-color: #111;
   }
-
+  
   .active {
-  background-color:#4CAF50;
- }
+    background-color: #4CAF50;
+  }
