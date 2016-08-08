@@ -7,7 +7,7 @@
     background-color: #333;
   }
 
-  li {
+  li#menu_item {
     float: left;
     border-right:1px solid #bbb;
   }
