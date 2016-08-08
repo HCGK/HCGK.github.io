@@ -1,5 +1,5 @@
 
-  ul {
+  ul#menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,12 +7,12 @@
     background-color: #333;
   }
 
-  li {
+  li#menu_item {
     float: left;
     border-right:1px solid #bbb;
   }
 
-  li:last-child {
+  li:last-child#menu_item {
     border-right: none;
   }
 
