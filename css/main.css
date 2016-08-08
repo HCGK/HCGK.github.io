@@ -25,7 +25,7 @@
   }
 
   a [id="menu"] :hover:not(.active) {
-    background-color: #111;
+    background-color: #FF1;
   }
 
   .active {
