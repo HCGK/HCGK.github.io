@@ -16,7 +16,7 @@
     border-right: none;
   }
 
-  li a {
+  li#menu_item a {
     display: block;
     color: white;
     text-align: center;
@@ -24,7 +24,7 @@
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  li#menu_item a:hover:not(.active) {
     background-color: #111;
   }
   
