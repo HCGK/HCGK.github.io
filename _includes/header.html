@@ -3,8 +3,8 @@
     <nav>
       <ul id="menu">
         {% for i in site.data.menu %}
-          <li id="menu">
-            <a href="{{ i.url | prepend: site.baseurl }}" id="menu">{{ i.text }}</a>
+          <li id="menu_item">
+            <a href="{{ i.url | prepend: site.baseurl }}">{{ i.text }}</a>
           </li>
         {% endfor %}
       </ul>
