@@ -8,10 +8,10 @@ layout: default
     <ul id="index">
         {% for post in paginator.posts %}
             <li>
-                <span id="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <span id="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <p>
-                    {{post.excerpt}}
+                    {{post.quip}}
                 <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">...</a> -->
                 </p>
             </li>
