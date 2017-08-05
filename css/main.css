@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #00F;
+    background-color: #000;
   }
 
   li#menu_item {
@@ -18,7 +18,7 @@
 
   li#menu_item a {
     display: block;
-    color: white;
+    color: Blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
