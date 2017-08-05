@@ -1,7 +1,7 @@
 /* Conten
  * body - main style
- * Menu - 
- * 
+ * Index
+ * Ribbon
 */
 
 
@@ -11,6 +11,12 @@ body {
   line-height: 1.5;
   font-weight: 300;
 }
+/*------ Index ------*/
+
+ul#menu{
+    list-style-type: none;
+  }
+
 
 /*------ Ribbon ------*/
 
@@ -19,7 +25,6 @@ ul#menu {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0cf;
   }
 
   li#menu_item {
