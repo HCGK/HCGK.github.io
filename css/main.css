@@ -45,13 +45,13 @@ ul#menu {
     border-right:1px solid #0cf;
   }
 
-  li:last-child {
+  li#menu_item:last-child {
     border-right: none;
   }
 
   li#menu_item a {
     display: block;
-    color:#0ff;
+    color:#0cf;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
