@@ -5,7 +5,7 @@ layout: default
 <div id="home">
     <h1>Posts</h1>
   
-    <ul id="posts">
+    <ul id="index">
         {% for post in paginator.posts %}
             <li>
                 <span id="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
