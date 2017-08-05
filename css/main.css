@@ -4,12 +4,12 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFF;
+    background-color: #00F;
   }
 
   li#menu_item {
     float: left;
-    border-right:1px solid #bbb;
+    border-right:1px solid #0F0;
   }
 
   li:last-child {
@@ -25,9 +25,9 @@
   }
   
   li#menu_item a:hover:not(.active) {
-    background-color: #111;
+    background-color: #F00;
   }
   
   .active {
-    background-color: #4CAF50;
+    background-color: #0FF;
   }
