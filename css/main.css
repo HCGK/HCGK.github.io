@@ -24,10 +24,6 @@
     text-decoration: none;
   }
   
-  li#menu_item a:hover:not(.active) {
-    background-color: #F00;
-  }
-  
   .active {
     background-color: #0FF;
   }
