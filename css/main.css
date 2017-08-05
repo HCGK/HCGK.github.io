@@ -4,12 +4,12 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000;
+    background-color: #FFF;
   }
 
   li#menu_item {
     float: left;
-    border-right:1px solid #0F0;
+    border-right:1px solid Blue;
   }
 
   li:last-child {
